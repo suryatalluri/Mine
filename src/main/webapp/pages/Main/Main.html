@@ -123,7 +123,7 @@
                         <wm-tabpane name="tabpane8">
                             <wm-tabheader name="tabheader8" heading="Location"></wm-tabheader>
                             <wm-tabcontent name="tabcontent8">
-                                <wm-prefab prefabname="googlemaps" name="googlemaps2" locations="bind:Variables.Location.dataSet" lat="coords.latitude" lng="coords.longitude" zoom="15"></wm-prefab>
+                                <wm-prefab prefabname="googlemaps" name="googlemaps2" locations="bind:Variables.Location.dataSet" lat="coords.latitude" lng="coords.longitude" zoom="5" height="400px"></wm-prefab>
                             </wm-tabcontent>
                         </wm-tabpane>
                         <wm-tabpane name="tabpane9">
@@ -151,6 +151,7 @@
                             </wm-tabcontent>
                         </wm-tabpane>
                     </wm-tabs>
+                    <wm-button class="btn-default" caption="Button" type="button" name="button4" on-tap="goToPage_Page"></wm-button>
                 </wm-segment-content>
                 <wm-segment-content caption="Misc" name="segment_content4">
                     <wm-tabs name="tabs4">
