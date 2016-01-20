@@ -1,1 +1,1 @@
-var _WM_APP_PROPERTIES = {"defaultLanguage":"en","type":"APPLICATION","homePage":"Main","platformType":"MOBILE","activeTheme":"mobile"}
+var _WM_APP_PROPERTIES = {"name":"","version":"1.0","defaultLanguage":"en","type":"APPLICATION","homePage":"Main","platformType":"MOBILE","activeTheme":"mobile"}
